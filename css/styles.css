@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster|Raleway';
+
 /*Navbar Section*/
 
 /*navbar-default {
@@ -42,8 +44,17 @@
   background-position:center;
 }
 
+.carousel-caption {
+  margin-bottom:100px;
+}
+
 .wood-img {
   background-image:url("../img/wood-2.jpg")
+}
+
+#basic-logo {
+  width:300px;
+  margin-bottom:20px;
 }
 
 .table-seating-img {
@@ -58,9 +69,67 @@
   background-color:#f8512f;
   color:#ffffff;
   border:none;
-    
+
 }
 
 .btn-default:hover {
   background-color:#d34326;
+}
+
+/*OUR STORY SECTION*/
+#our_story_wrapper{
+  min-height:80vh;
+
+}
+
+#our_story {
+  font-family:"Lobster", cursive;
+  color:#f8512f;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 55px;
+
+}
+
+#our_story_subtext {
+  font-family:"Raleway", sans-serif;
+  text-transform: capitalize;
+  font-weight:700;
+  font-size:18px;
+}
+
+#year_subtext {
+  position:absolute;
+  z-index:-2;
+  font-family:"Playfair Display", serif;
+  color:rgba(149, 147, 147, 0.2);
+  font-size:225px;
+}
+
+/*Fresno Bee section*/
+
+/*Menu Section*/
+#menu-background {
+  background-image: url("../img/black_linen.png");
+  background-size:cover;
+  min-height:80vh;
+
+}
+
+#menu-heading {
+  font-family: "Lobster", cursive;
+  color:#ffffff;
+  text-transform:capitalize;
+}
+
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover {
+  color:#f8512f;
+}
+
+.nav-tabs>li>a {
+  color: #f8512f;
+}
+
+.thumbnail>.caption>p {
+  text-justify:center;
 }
